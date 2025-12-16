@@ -1,133 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uttam Gupta - CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="cv-container">
-        <!-- Header -->
-        <header class="cv-header">
-            <h1>Uttam Gupta</h1>
-            <div class="contact-info">
-                <a href="mailto:uttamgupta2712@gmail.com"><i class="fa-solid fa-envelope"></i>
-                    uttamgupta2712@gmail.com</a>
-                <span><i class="fa-solid fa-phone"></i> +91 9773706266</span>
-                <span><i class="fa-solid fa-location-dot"></i> Delhi, India</span>
-                <a href="https://www.linkedin.com/in/uttam-gupta-a185a8239/" target="_blank"><i
-                        class="fa-brands fa-linkedin"></i> LinkedIn</a>
-            </div>
-        </header>
+      <!-- Header -->
+      <header class="cv-header">
+        <h1>Uttam Gupta</h1>
+        <div class="contact-info">
+          <a href="mailto:uttamgupta2712@gmail.com"
+            ><i class="fa-solid fa-envelope"></i> uttamgupta2712@gmail.com</a
+          >
+          <span><i class="fa-solid fa-phone"></i> +91 9773706266</span>
+          <span><i class="fa-solid fa-location-dot"></i> Delhi, India</span>
+          <a
+            href="https://www.linkedin.com/in/uttam-gupta-a185a8239/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+        </div>
+      </header>
 
-        <!-- Summary -->
-        <section class="cv-section">
-            <h2>Professional Summary</h2>
-            <p>
-                Full Stack Developer with expertise in building scalable web applications, microservices, and dynamic
-                user interfaces.
-                Proven track record in optimizing performance, leading teams, and solving complex engineering problems.
-                passionate about creating efficiency through innovative tools and automation.
-            </p>
-        </section>
+      <!-- Summary -->
+      <section class="cv-section">
+        <h2>Professional Summary</h2>
+        <p>
+          Full Stack Developer with expertise in building scalable web
+          applications, microservices, and dynamic user interfaces. Proven track
+          record in optimizing performance, leading teams, and solving complex
+          engineering problems. passionate about creating efficiency through
+          innovative tools and automation.
+        </p>
+      </section>
 
-        <!-- Skills -->
-        <section class="cv-section">
-            <h2>Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <strong>Languages:</strong> JavaScript, ES6+, TypeScript, C#
-                </div>
-                <div class="skill-category">
-                    <strong>Frontend:</strong> Next.js, React.js, Material UI, Redux-Toolkit, Hooks, Memoization,
-                    Tailwind CSS
-                </div>
-                <div class="skill-category">
-                    <strong>Backend:</strong> System Design, Microservices (RabbitMQ), Nest.js, ExpressJS, Redis,
-                    TypeORM, MongoDB, PostgreSQL
-                </div>
-                <div class="skill-category">
-                    <strong>Tools:</strong> Git, SonarQube, FFmpeg, Docker, Miro, Figma
-                </div>
-                <div class="skill-category">
-                    <strong>Coursework:</strong> Computer Networks, NoSQL Databases, Data Structures & Algorithms
-                </div>
-            </div>
-        </section>
+      <!-- Skills -->
+      <section class="cv-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <strong>Languages:</strong> JavaScript, ES6+, TypeScript, C#
+          </div>
+          <div class="skill-category">
+            <strong>Frontend:</strong> Next.js, React.js, Material UI,
+            Redux-Toolkit, Hooks, Memoization, Tailwind CSS
+          </div>
+          <div class="skill-category">
+            <strong>Backend:</strong> System Design, Microservices (RabbitMQ),
+            Nest.js, ExpressJS, Redis, TypeORM, MongoDB, PostgreSQL
+          </div>
+          <div class="skill-category">
+            <strong>Tools:</strong> Git, SonarQube, FFmpeg, Docker, Miro, Figma
+          </div>
+          <div class="skill-category">
+            <strong>Coursework:</strong> Computer Networks, NoSQL Databases,
+            Data Structures & Algorithms
+          </div>
+        </div>
+      </section>
 
-        <!-- Experience -->
-        <section class="cv-section">
-            <h2>Experience</h2>
+      <!-- Experience -->
+      <section class="cv-section">
+        <h2>Experience</h2>
 
-            <div class="experience-item">
-                <div class="exp-header">
-                    <h3>Full Stack Developer</h3>
-                    <span class="company">Zenmonk Software And Services (FUNIBER), Mohali</span>
-                    <span class="date">June 2023 - Present</span>
-                </div>
-                <ul class="exp-details">
-                    <li>Engineered a dynamic RBAC system for a complex multi-tenant ERP, implementing
-                        runtime-configurable roles, secure SSO, and tenant-specific access to ensure strict data
-                        isolation using ReactJS, NextJS, and Node.js.</li>
-                    <li>Overcame monolithic scalability limits by decoupling services into RabbitMQ-based microservices
-                        and containerizing with Docker/Kubernetes on Digital Ocean, optimizing CI/CD pipelines via
-                        GitHub Actions for reliable automated deployments.</li>
-                    <li>Resolved critical performance bottlenecks in high-volume document generation (10,000+ records)
-                        by architecting a streaming Node.js/LaTeX pipeline that maintains data integrity and encryption
-                        standards.</li>
-                    <li>Accelerated team velocity and code quality by leading a team of four, establishing rigorous
-                        review standards, and introducing Higher-Order Components (HOC) to eliminate redundancy.</li>
-                    <li>Conducted technical interviews for new hires, assessing candidates on problem-solving skills,
-                        coding proficiency, and cultural fit to build a high-performing team.</li>
-                    <li>Designed responsive, adaptive interfaces ensuring cross-browser compatibility and a seamless
-                        mobile-first user experience.</li>
-                </ul>
-            </div>
-        </section>
+        <div class="experience-item">
+          <div class="exp-header">
+            <h3>Full Stack Developer</h3>
+            <span class="company"
+              >Zenmonk Software And Services (FUNIBER), Mohali</span
+            >
+            <span class="date">June 2023 - Present</span>
+          </div>
+          <ul class="exp-details">
+            <li>
+              Engineered a dynamic RBAC system for a complex multi-tenant ERP,
+              implementing runtime-configurable roles, secure SSO, and
+              tenant-specific access to ensure strict data isolation using
+              ReactJS, NextJS, and Node.js.
+            </li>
+            <li>
+              Overcame monolithic scalability limits by decoupling services into
+              RabbitMQ-based microservices and containerizing with
+              Docker/Kubernetes on Digital Ocean, optimizing CI/CD pipelines via
+              GitHub Actions for reliable automated deployments.
+            </li>
+            <li>
+              Resolved critical performance bottlenecks in high-volume document
+              generation (10,000+ records) by architecting a streaming
+              Node.js/LaTeX pipeline that maintains data integrity and
+              encryption standards.
+            </li>
+            <li>
+              Accelerated team velocity and code quality by leading a team of
+              four, establishing rigorous review standards, and introducing
+              Higher-Order Components (HOC) to eliminate redundancy.
+            </li>
+            <li>
+              Conducted technical interviews for new hires, assessing candidates
+              on problem-solving skills, coding proficiency, and cultural fit to
+              build a high-performing team.
+            </li>
+            <li>
+              Designed responsive, adaptive interfaces ensuring cross-browser
+              compatibility and a seamless mobile-first user experience.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <!-- Projects & Achievements -->
-        <section class="cv-section">
-            <h2>Key Projects & Achievements</h2>
-            <ul class="projects-list">
-                <li><strong>GoGlimp.com:</strong> Stealth AI copilot for interviews. Core engineer team for website and
-                    software.</li>
-                <li><strong>Cogitaas.com:</strong> Framer based ui. Primary developer for website.</li>
-                <li><strong>VSCode Extension:</strong> Developed a Mock Server extension to facilitate frontend testing
-                    and development.</li>
-                <li><strong>Chrome Extension:</strong> Developed and published a ai assistant chrome extension
-                    (currently under webstore review).</li>
-                <li><strong>Infrastructure Optimization:</strong> Eliminated high cloud testing costs by building a
-                    custom local containerized server infrastructure, enabling cost-effective and rapid product testing.
-                </li>
-            </ul>
-        </section>
+      <!-- Projects & Achievements -->
+      <section class="cv-section">
+        <h2>Key Projects & Achievements</h2>
+        <ul class="projects-list">
+          <li>
+            <strong>GoGlimp.com:</strong> Stealth AI copilot for interviews.
+            Core engineer team for website and software.
+          </li>
+          <li>
+            <strong>Cogitaas.com:</strong> Framer based ui. Primary developer
+            for website.
+          </li>
+          <li>
+            <strong>VSCode Extension:</strong> Developed a Mock Server extension
+            to facilitate frontend testing and development.
+          </li>
+          <li>
+            <strong>Chrome Extension:</strong> Developed and published a ai
+            assistant chrome extension (currently under webstore review).
+          </li>
+          <li>
+            <strong>Infrastructure Optimization:</strong> Eliminated high cloud
+            testing costs by building a custom local containerized server
+            infrastructure, enabling cost-effective and rapid product testing.
+          </li>
+        </ul>
+      </section>
 
-        <!-- Education -->
-        <section class="cv-section">
-            <h2>Education</h2>
-            <div class="education-item">
-                <div class="edu-header">
-                    <h3>B.Tech (Computer Science & Engineering)</h3>
-                    <span>Lovely Professional University, Phagwara</span>
-                    <span>7.86/10</span>
-                </div>
-            </div>
-            <div class="education-item">
-                <div class="edu-header">
-                    <h3>12th Standard</h3>
-                    <span>Holy Angels Sr. Sec. School, Gaziabad</span>
-                    <span>92%</span>
-                </div>
-            </div>
-        </section>
+      <!-- Education -->
+      <section class="cv-section">
+        <h2>Education</h2>
+        <div class="education-item">
+          <div class="edu-header">
+            <h3>B.Tech (Computer Science & Engineering)</h3>
+            <span>Lovely Professional University, Phagwara</span>
+            <span>7.86/10</span>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="edu-header">
+            <h3>12th Standard</h3>
+            <span>Holy Angels Sr. Sec. School, Gaziabad</span>
+            <span>92%</span>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>

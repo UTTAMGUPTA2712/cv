@@ -82,14 +82,14 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 4px;
-  margin-bottom: 8px;
+  padding-top: 4px;
   letter-spacing: 0.5px;
 }
 
 /* Skills */
 .skills-grid {
   display: grid;
-  gap: 8px;
+  gap: 4px;
 }
 
 .skill-category {

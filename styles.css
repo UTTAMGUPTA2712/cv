@@ -28,7 +28,7 @@ body {
   /* A4 width */
   margin: 30px auto;
   background: white;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   min-height: 297mm;
   /* A4 height */
@@ -37,12 +37,12 @@ body {
 /* Header */
 .cv-header {
   border-bottom: 2px solid var(--primary-color);
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .cv-header h1 {
-  font-size: 32px;
+  font-size: 28px;
   color: var(--primary-color);
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -73,7 +73,7 @@ body {
 
 /* Section Common */
 .cv-section {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .cv-section h2 {
@@ -141,7 +141,7 @@ body {
 }
 
 .exp-details li {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   text-align: justify;
 }
 
@@ -153,7 +153,7 @@ body {
 }
 
 .projects-list li {
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 /* Education */
@@ -185,7 +185,7 @@ body {
   .cv-container {
     margin: 0 auto;
     /* Center on larger paper */
-    padding: 20px 30px;
+    padding: 15px 25px;
     /* Internal padding */
     box-shadow: none;
     width: 100%;

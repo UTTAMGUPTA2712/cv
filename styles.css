@@ -17,7 +17,7 @@
 body {
   font-family: var(--font-main);
   color: var(--text-color);
-  line-height: 1.4;
+  line-height: 1.5;
   background-color: #f5f5f5;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
@@ -73,7 +73,7 @@ body {
 
 /* Section Common */
 .cv-section {
-  margin-bottom: 4px;
+  margin-bottom: 12px;
 }
 
 .cv-section h2 {

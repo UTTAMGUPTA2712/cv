@@ -19,6 +19,7 @@ body {
   color: var(--text-color);
   line-height: 1.5;
   background-color: #f5f5f5;
+  text-align: justify;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -95,7 +96,8 @@ body {
 /* Skills */
 .skills-grid {
   display: grid;
-  gap: 4px;
+  grid-template-columns: 1fr;
+  row-gap: 4px;
 }
 
 .skill-category {
@@ -213,7 +215,7 @@ body {
   .cv-container {
     margin: 0 auto;
     /* Center on larger paper */
-    padding: 15px 25px;
+    padding: 0px 25px;
     /* Internal padding */
     box-shadow: none;
     width: 100%;
@@ -240,8 +242,54 @@ body {
   }
 
   /* Ensure page breaks don't chop items */
-  .experience-item,
-  .cv-section {
+  .experience-item {
     page-break-inside: avoid;
+  }
+
+  /* Balance spacing so the CV fills a single printed page without overflowing */
+  body {
+    line-height: 1.36;
+  }
+
+  .cv-header {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+
+  .cv-header h1 {
+    font-size: 27px;
+    margin-bottom: 3px;
+  }
+
+  .contact-info {
+    line-height: 16px;
+  }
+
+  .cv-section {
+    margin-bottom: 4px;
+  }
+
+  .cv-section h2 {
+    font-size: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .cv-section p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .skills-grid {
+    row-gap: 4px;
+  }
+
+  .experience-item {
+    margin-bottom: 6px;
+  }
+
+  .exp-details li,
+  .projects-list li {
+    margin-bottom: 2px;
   }
 }

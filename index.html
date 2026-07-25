@@ -35,7 +35,8 @@
       <h2>Professional Summary</h2>
       <p>
         <strong>Full Stack Engineer</strong> with 3+ years of experience and <strong>3 promotions</strong> for
-        high-impact delivery. Specialized in <strong>Rust systems</strong> and <strong>TypeScript ecosystems</strong>,
+        high-impact delivery. Specialized in <strong>TypeScript ecosystems</strong> and <strong>real-time
+          systems</strong>,
         with a proven track record of reducing document processing latency by <strong>95%</strong>. Expert in
         architecting <strong>event-driven microservices</strong> and high-performance, <strong>multi-tenant enterprise
           platforms</strong>
@@ -45,16 +46,16 @@
     <section class="cv-section">
       <h2>Technical Skills</h2>
       <div class="skills-grid">
-        <div class="skill-category"><strong>Languages:</strong> Rust (Systems), TypeScript, JavaScript (ES6+), SQL
+        <div class="skill-category"><strong>Languages:</strong> TypeScript, JavaScript (ES6+), SQL
         </div>
-        <div class="skill-category"><strong>Frontend:</strong> React.js, Next.js, Redux Toolkit, Tailwind CSS, shadcn/ui
+        <div class="skill-category"><strong>Frontend:</strong> React.js, Next.js, Vite, Redux Toolkit, Tailwind CSS, shadcn/ui, Material UI
         </div>
-        <div class="skill-category"><strong>Backend:</strong> Node.js, NestJS, RabbitMQ, Redis, PostgreSQL, MongoDB
+        <div class="skill-category"><strong>Backend:</strong> Node.js, NestJS, Socket.IO, RabbitMQ, Redis, PostgreSQL, MongoDB, Stripe
         </div>
         <div class="skill-category"><strong>Infrastructure:</strong> GCP (GKE), Acens(Cloud), Docker, Kubernetes, CI/CD,
-          System Design</div>
-        <div class="skill-category"><strong>Architecture:</strong> Event Storming/Modeling, EDA, Saga & CQRS, RBAC/SSO,
-          TDD, DDD</div>
+          System Design, WebRTC, HLS</div>
+        <div class="skill-category"><strong>Architecture & Testing:</strong> Event Storming/Modeling, EDA, Saga & CQRS,
+          RBAC/SSO, TDD, DDD, Jest, Testing Library, API Design (REST/GraphQL/OpenAPI)</div>
       </div>
     </section>
 
@@ -70,8 +71,9 @@
         <ul class="exp-details">
           <li><strong>Enterprise Architecture:</strong> Led re-engineering of a complex IBMS and project management
             platform by breaking business flows into modular, <strong>event-driven services</strong> using <strong>event
-              modeling</strong> and <strong>event
-              storming</strong>.</li>
+              modeling</strong>, <strong>event
+              storming</strong>, and <strong>Saga & CQRS patterns</strong> for distributed transaction
+            consistency.</li>
           <li><strong>Latency Engineering:</strong> Reduced document processing time from 5 minutes to 15 seconds for
             10k+ concurrent records by converting synchronous routes into <strong>asynchronous, parallelized
               chunk-processing
@@ -80,20 +82,28 @@
             <strong>SSO support</strong> and strict
             <strong>tenant isolation</strong> for a <strong>multi-tenant ERP</strong>.
           </li>
-          <li><strong>Frontend Performance:</strong> Improved frontend performance for data-heavy screens by
+          <li><strong>Frontend Performance:</strong> Improved <strong>React.js/Next.js</strong> frontend performance
+            for data-heavy screens by
             implementing <strong>table virtualization</strong> for 1500+ dynamic cells, reducing DOM overhead and
             interaction latency.
           </li>
-          <li><strong>Cloud & Microservices:</strong> Supported migration of a legacy monolith to
+          <li><strong>Cloud & Microservices:</strong> Supported migration of a legacy <strong>Node.js/NestJS</strong>
+            monolith to
             <strong>RabbitMQ-powered
-              services</strong> deployed on <strong>GCP (GKE)</strong> and <strong>Acens</strong>, helping improve
+              services</strong>, containerized with <strong>Docker</strong> and deployed via <strong>CI/CD
+              pipelines</strong> to <strong>GCP (GKE)</strong> and <strong>Acens</strong>, helping improve
             deployment frequency.
           </li>
           <li><strong>Security:</strong> Implemented <strong>MongoDB field-level encryption</strong> for sensitive PII
             and added
             resilient <strong>message-handling patterns</strong> to reduce failures during peak throughput.</li>
-          <li><strong>Engineering Lead:</strong> Worked across engineering, QA, product, and design to improve technical
-            feasibility checks early in the delivery cycle and shorten feedback loops.</li>
+          <li><strong>Testing & Performance:</strong> Adopted <strong>TDD with Jest</strong> across core services and
+            introduced <strong>Redis caching</strong> for frequently accessed data, improving API response times and
+            reducing database load.</li>
+          <li><strong>Engineering Leadership:</strong> Owned <strong>technical design and RFCs</strong> for major
+            initiatives, <strong>mentored engineers</strong> through code reviews and pairing, and partnered directly
+            with QA, product, and design stakeholders to sharpen feasibility checks early in the delivery cycle and
+            shorten feedback loops.</li>
         </ul>
       </div>
     </section>
@@ -102,43 +112,36 @@
       <h2>Selected Technical Projects</h2>
       <ul class="projects-list">
         <li>
-          <strong>FileBridge:</strong> Desktop application that converts local folders into <strong>file-sharing
-            servers</strong> via
-          <strong>QR-code pairing</strong> for seamless cross-device networking and I/O.
-          <span class="project-links">
-            <a href="https://uttamgupta2712.github.io/FileBridge/" target="_blank" title="Live Site"><i
-                class="fa-solid fa-external-link-alt"></i></a>
-            <a href="https://github.com/uttamgupta2712/FileBridge" target="_blank" title="GitHub"><i
-                class="fa-brands fa-github"></i></a>
-          </span>
-        </li>
-        <li>
-          <strong>High-Performance Load Balancer (Rust):</strong> Built a modular <strong>Layer-4 load balancer</strong>
-          in Rust
-          supporting <strong>Round Robin</strong> and <strong>IP Hash</strong> algorithms for concurrent network
-          traffic.
-          <span class="project-links">
-            <a href="https://github.com/UTTAMGUPTA2712/load-balancer" target="_blank" title="GitHub"><i
-                class="fa-brands fa-github"></i></a>
-          </span>
-        </li>
-        <li>
-          <strong>Axon (Vision-to-Action):</strong> Chrome extension utilizing <strong>GPT-4o Vision</strong> to
-          automate complex web
-          workflows, including intelligent <strong>form-filling</strong> and real-time <strong>content
-            scraping</strong>.
+          <strong>Axon (Vision-to-Action):</strong> Personal Chrome extension utilizing <strong>GPT-4o
+            Vision</strong> to automate complex web workflows, including intelligent <strong>form-filling</strong>
+          and real-time <strong>content scraping</strong>.
           <span class="project-links">
             <a href="https://uttamgupta2712.github.io/axon/" target="_blank" title="Live Site"><i
                 class="fa-solid fa-external-link-alt"></i></a>
           </span>
         </li>
         <li>
-          <strong>Redis Lite:</strong> Multi-threaded <strong>Redis protocol (TCP/IP)</strong> implementation in Rust,
-          focused on
-          <strong>low-latency</strong> concurrent key-value operations.
+          <strong>Buck:</strong> Core engineer with <strong>full ownership</strong> of this live-streaming platform
+          (Next.js), where creators start live streams and viewers either <strong>subscribe to creators</strong> or
+          watch free as <strong>ad-supported users</strong>. Built and scaled the web application end-to-end,
+          implementing <strong>authentication</strong>, <strong>subscription-based access</strong>, and
+          <strong>payment integration</strong>, alongside the <strong>live video streaming pipeline</strong> and
+          <strong>Socket.IO-powered real-time interaction</strong> (chat, reactions, participant sync) during
+          sessions.
           <span class="project-links">
-            <a href="https://github.com/UTTAMGUPTA2712/redis_lite" target="_blank" title="GitHub"><i
-                class="fa-brands fa-github"></i></a>
+            <a href="https://buckstreaming.com" target="_blank" title="Live Site"><i
+                class="fa-solid fa-external-link-alt"></i></a>
+          </span>
+        </li>
+        <li>
+          <strong>Maity:</strong> Full-stack build (frontend & backend) of an <strong>AI-powered video
+            personalization</strong> platform for sales outreach. Built the <strong>outreach campaign
+            management</strong> system for sending personalized video messages at scale, a <strong>CRM/integration
+            layer</strong> connecting to sales tools, the <strong>video rendering & delivery backend</strong>, and an
+          <strong>analytics dashboard</strong> tracking views, engagement, and reply rates for sales reps.
+          <span class="project-links">
+            <a href="https://maity.pro" target="_blank" title="Live Site"><i
+                class="fa-solid fa-external-link-alt"></i></a>
           </span>
         </li>
       </ul>
@@ -150,7 +153,8 @@
         <div class="edu-header">
           <h3>B.Tech in Computer Science & Engineering</h3>
           <span>Lovely Professional University</span>
-          <span>7.86/10 CGPA</span>
+          <span class="date">2020 – 2024</span>
+          <span>7.86 CGPA</span>
         </div>
       </div>
     </section>
